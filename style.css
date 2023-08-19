@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.breadcrumbs {
+  padding: 10px;
+  margin-left: 550px;
+  
+}
+
+.breadcrumbs--item  {
+  display: inline-flex;
+  
+
+
+  
+}
+
+.breadcrumbs--item:not(:last-of-type)::after {
+  content: '/';
+  margin: 0 5px;
+  color: rgb(10, 10, 9);
+}  
+
+.breadcrumb--link  {
+  text-decoration: none;
+  color: brown;
+
+}
+
+.breadcrumb--link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb--link--active {
+  color: rgb(127, 112, 112);
+  font-weight: 500;
+}
+
+.cards {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+ gap: 50px;
+ margin: 80px;
+
+}
+
+.cards .card {
+  border: 1px solid rgb(76, 57, 57);
+  padding: 40px;
+}
+
+
+.beautiful-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.beautiful-table th, .beautiful-table td {
+  padding: 10px;
+  text-align:left;
+}
+
+.beautiful-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.beautiful-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.beautiful-table tbody tr:hover {
+  background-color: #e3e3e3;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
